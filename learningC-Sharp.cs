@@ -23,6 +23,14 @@ namespace learningCsharp
             string mon_string = "michael";
             Console.WriteLine(mon_string);
 
+//variable de type sbyte pour les chiffre entre 0-255, prend en mémoire 1 bytes
+            sbyte my_number = 44;
+            Console.WriteLine(my_number);
+
+//variable de type float, prend en mémoire 4 bytes et on dois mettre un f a la fin du float
+            float my_float = 1.44f;
+            Console.WriteLine(my_float);
+
 
            Console.ReadKey(); 
         }
