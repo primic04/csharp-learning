@@ -5,43 +5,27 @@ namespace learningCsharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("salut salut salut");
+            string dan_name = "danny";
+            int age_danny = 28;
+            float taille_danny = 1.85f;
 
-//variable de type bool, prend 1 bytes de mémoire
-            bool homme = true;
-            Console.WriteLine(homme);
+            Console.WriteLine(dan_name + age_danny + taille_danny);
 
-//variable de type int, prend 4 bytes en mémoire
-            //int age;
-            //Console.WriteLine(age);
+            string melee_name = "melee";
+            int age_melee = 26;
+            float taille_melee = 1.75f;
+            Console.WriteLine(melee_name + age_melee + taille_melee);
 
-// variable de type char, prend 2 bytes en memoire
-            char mon_char = 'a';
-            Console.WriteLine(mon_char);
+            string sam_name = "samuel";
+            int age_sam = 24;
+            float taille_sam = 1.70f;
+            Console.WriteLine(sam_name + age_sam + taille_sam);
 
-//variable de type string, prend 20+ bytes en memoire
-            string mon_string = "JeuVideo";
-            Console.WriteLine(mon_string);
-
-//variable de type sbyte pour les chiffre entre 0-255, prend en mémoire 1 bytes
-            sbyte my_number = 44;
-            Console.WriteLine(my_number);
-
-//variable de type float, prend en mémoire 4 bytes et on dois mettre un f a la fin du float
-            float my_float = 1.44f;
-            Console.WriteLine(my_float);
-
-            string prenom = "michael";
-            Console.WriteLine(prenom);
-            string nom = "turcotte-coulombe";
-            Console.WriteLine(nom);
-            Console.WriteLine(prenom + nom);
-
-//un variable peut-être déclaré comme suit
-            int age;
-            age = 27;
-            Console.WriteLine(age);
-
+            string danna_name = "danny-ann";
+            int age_danna = 20;
+            float taille_danna = 1.60f;
+            Console.WriteLine((danna_name) + (age_danna) + (taille_danna));
+//probleme pour espacer les variable dans le console writeline
 
            Console.ReadKey(); 
         }
