@@ -5,6 +5,25 @@ namespace learningCsharp
     {
         static void Main(string[] args)
         {
+            int nbr = 4;
+            int resultat;
+
+            resultat = nbr * 10;
+
+            //Console.WriteLine(resultat);
+            string str = "je chosis le nombre "  + nbr + " et est egale a " + resultat;
+            Console.WriteLine(str);
+
+
+
+
+
+
+
+
+
+
+            /*
             string dan_name = "danny";
             int age_danny = 28;
             float taille_danny = 1.85f;
@@ -26,8 +45,10 @@ namespace learningCsharp
             float taille_danna = 1.60f;
             Console.WriteLine((danna_name) + (age_danna) + (taille_danna));
 //probleme pour espacer les variable dans le console writeline
+            */
 
-           Console.ReadKey(); 
-        }
+
+  Console.Read(); 
+        }        
     }
 }
