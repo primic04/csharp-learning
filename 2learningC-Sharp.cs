@@ -5,7 +5,60 @@ namespace learningCsharp2
     {
         static void Main(string[] args)
         {
+            string username = "moktc";
+            string password = "12354";
+            string userwrong = "wrong username";
+            string passwordwrong = "wrong password";
+            
 
+
+            if(username =="mtc" && password =="1234")
+            {
+                Console.WriteLine("acces granted: welcome ");
+            }
+            else if(username != "mtc" || password != "1234")
+            {
+                Console.WriteLine(userwrong + " or " + passwordwrong + " try again");
+            }
+            else
+            {
+                Console.WriteLine("Acces denied");
+            }
+            /// have to fix the denied acces and the else if 
+
+            
+
+             
+
+
+            Console.Read();
+        }
+    }
+}
+/*
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+            string UserName = "Michael";
+            string UserFamName = "T-C";
+            sbyte UserAge = 27;
+            float UserSize = 1.75f;
+            byte UserWeight = 220;
+            //bool homme = true;
+            string UserSex = "homme";
+
+            Console.WriteLine("VOICI VOTRE PROFIL COMPLET");
+            Console.WriteLine("vous avez: " + UserAge + " ans");
+            Console.WriteLine("un int fait " + (sizeof(int)) + " bytes");
+            Console.WriteLine(UserSize + " metre");
+            Console.WriteLine("votre poids est de: " + UserWeight + " lbs");
+            Console.WriteLine(UserSex);
+            Console.WriteLine("votre nom complet est: " + UserName + " " + UserFamName);
+
+            Console.WriteLine("PROFIL COMPLETE...");
+
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
 
             int MicPts = 388;
             int AdvPts = 405;
@@ -31,31 +84,5 @@ namespace learningCsharp2
                 Console.WriteLine("vous n'avez pas obtenu assez de point, Revenez quand ce sera fait.");
                 Console.WriteLine("il vous manque: " + PtsNeeded + " point");
             }
-
-             
-
-
-            Console.Read();
-        }
-    }
-}
-/*
-            string UserName = "Michael";
-            string UserFamName = "T-C";
-            sbyte UserAge = 27;
-            float UserSize = 1.75f;
-            byte UserWeight = 220;
-            //bool homme = true;
-            string UserSex = "homme";
-
-            Console.WriteLine("VOICI VOTRE PROFIL COMPLET");
-            Console.WriteLine("vous avez: " + UserAge + " ans");
-            Console.WriteLine("un int fait " + (sizeof(int)) + " bytes");
-            Console.WriteLine(UserSize + " metre");
-            Console.WriteLine("votre poids est de: " + UserWeight + " lbs");
-            Console.WriteLine(UserSex);
-            Console.WriteLine("votre nom complet est: " + UserName + " " + UserFamName);
-
-            Console.WriteLine("PROFIL COMPLETE...");
 
 */
