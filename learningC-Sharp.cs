@@ -5,6 +5,21 @@ namespace learningCsharp
     {
         static void Main(string[] args)
         {
+            int user0 = 31;
+            int user1 = 18;
+            //int user2 = 13;
+            //int user3 = 39;
+            //int user4 = 27;
+            //int user5 = 17;
+
+            if(user0 >= 18)
+            {
+                Console.Write("acces granted for user0: welcome");
+            }
+            else
+            {
+                Console.Write("Access denied");
+            }
 
 
 
