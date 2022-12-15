@@ -5,21 +5,17 @@ namespace learningCsharp
     {
         static void Main(string[] args)
         {
-            int user0 = 31;
-            int user1 = 18;
-            //int user2 = 13;
-            //int user3 = 39;
-            //int user4 = 27;
-            //int user5 = 17;
+            int user_age = 12;
 
-            if(user0 >= 18)
+            if(user_age >= 18)
             {
-                Console.Write("acces granted for user0: welcome");
+                Console.WriteLine("Acces granted: welcome");
             }
             else
             {
-                Console.Write("Access denied");
+                Console.WriteLine("acces denied: comme back when your got required age");
             }
+            
 
 
 
@@ -91,4 +87,20 @@ namespace learningCsharp
           Console.WriteLine(resultat * nbr3 / (nbr1 / nbr3));// = 20
           total = resultat * nbr3 / (nbr1 / nbr3) / 8;
           Console.WriteLine(total);// = 2
+
+          int user0 = 31;
+            int user1 = 18;
+            //int user2 = 13;
+            //int user3 = 39;
+            //int user4 = 27;
+            //int user5 = 17;
+
+            if(user0 >= 18)
+            {
+                Console.Write("acces granted for user0: welcome");
+            }
+            else
+            {
+                Console.Write("Access denied");
+            }
             */
