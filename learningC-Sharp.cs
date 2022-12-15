@@ -5,55 +5,7 @@ namespace learningCsharp
     {
         static void Main(string[] args)
         {
-        {
-            int user1 = 27;
 
-            if(user1 >= 18)
-            {
-                Console.WriteLine("Acces granted: welcome user1");
-            }
-            else
-            {
-                Console.WriteLine("acces denied: user1: come back when your got required age");
-            }
-        }
-        {
-            int user2 = 17;
-
-            if(user2 >= 18)
-            {
-                Console.WriteLine("acces granted: welcome user2");
-            }
-            else
-            {
-                Console.WriteLine("acces denied to user2: you are minor");
-            }
-        }
-        {
-            int user3 = 36;
-
-            if(user3 >= 18)
-            {
-                Console.WriteLine("acces granted: user3 welcome");
-            }
-            else
-            {
-                Console.WriteLine("acces denied: user3 dont have the require age");
-            }
-        }
-        {
-            int user4 = 14;
-
-            if(user4 >= 18)
-            {
-                Console.WriteLine("acces granted to user 4: welcome");
-            }
-            else
-            {
-                Console.WriteLine("acces denied to user4: come back when you are major");
-            }
-        }
-            
 
 
 
@@ -140,5 +92,107 @@ namespace learningCsharp
             else
             {
                 Console.Write("Access denied");
+            }
+
+            //user1-user4 permission majority with if/else...
+        {
+            
+            int user1 = 27;
+
+            if(user1 >= 18)
+            {
+                Console.WriteLine("Acces granted: welcome user1");
+            }
+            else
+            {
+                Console.WriteLine("acces denied: user1: come back when your got required age");
+            }
+        }
+        {
+            int user2 = 17;
+
+            if(user2 >= 18)
+            {
+                Console.WriteLine("acces granted: welcome user2");
+            }
+            else
+            {
+                Console.WriteLine("acces denied to user2: you are minor");
+            }
+        }
+        {
+            int user3 = 36;
+
+            if(user3 >= 18)
+            {
+                Console.WriteLine("acces granted: user3 welcome");
+            }
+            else
+            {
+                Console.WriteLine("acces denied: user3 dont have the require age");
+            }
+        }
+        {
+            int user4 = 14;
+
+            if(user4 >= 18)
+            {
+                Console.WriteLine("acces granted to user 4: welcome");
+            }
+            else
+            {
+                Console.WriteLine("acces denied to user4: come back when you are major");
+            }
+        }
+
+        // security age usa can 
+
+            int usa_major = 21;
+            int can_major = 18;
+            int user1 = 15;
+            int user2 = 19;
+            int user3 = 27;
+
+            {
+
+                if(user1 >= can_major)
+                {
+                    Console.WriteLine("vous etes majeur au canada");
+                }
+                else if(user1 >= usa_major)
+                {
+                    Console.WriteLine("vous etes majeur au usa");
+                }
+                else
+                {
+                    Console.WriteLine("user1: vous devez attendre quelques années encore");
+                }
+            }
+
+            {
+                if(user2 >= can_major)
+                {
+                    Console.WriteLine("user2: vous etes majeur au canada: acces granted");
+                }
+                else if(user2 >= usa_major)
+                {
+                    Console.WriteLine("vous etes majeur au usa");
+                }
+                else
+                {
+                    Console.WriteLine("vous devez attendre quelques années encore");
+                }
+            }
+
+            {
+                if(user3 >= can_major || user3 >= usa_major)
+                {
+                    Console.WriteLine("user3: vous ete majeur partout sur terre: access granted");
+                }
+                else
+                {
+                    Console.WriteLine("user3: vous etes majeur au canada: acces granted");
+                }
+
             }
             */
