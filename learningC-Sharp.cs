@@ -5,16 +5,54 @@ namespace learningCsharp
     {
         static void Main(string[] args)
         {
-            int user_age = 12;
+        {
+            int user1 = 27;
 
-            if(user_age >= 18)
+            if(user1 >= 18)
             {
-                Console.WriteLine("Acces granted: welcome");
+                Console.WriteLine("Acces granted: welcome user1");
             }
             else
             {
-                Console.WriteLine("acces denied: comme back when your got required age");
+                Console.WriteLine("acces denied: user1: come back when your got required age");
             }
+        }
+        {
+            int user2 = 17;
+
+            if(user2 >= 18)
+            {
+                Console.WriteLine("acces granted: welcome user2");
+            }
+            else
+            {
+                Console.WriteLine("acces denied to user2: you are minor");
+            }
+        }
+        {
+            int user3 = 36;
+
+            if(user3 >= 18)
+            {
+                Console.WriteLine("acces granted: user3 welcome");
+            }
+            else
+            {
+                Console.WriteLine("acces denied: user3 dont have the require age");
+            }
+        }
+        {
+            int user4 = 14;
+
+            if(user4 >= 18)
+            {
+                Console.WriteLine("acces granted to user 4: welcome");
+            }
+            else
+            {
+                Console.WriteLine("acces denied to user4: come back when you are major");
+            }
+        }
             
 
 
